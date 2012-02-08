@@ -1,0 +1,126 @@
+form p {
+	display: block;
+	overflow: hidden;
+}
+
+form p span.cell {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	min-height: 1em;
+	overflow: auto;
+	margin-bottom: -999em;
+	padding-bottom: 999em;
+	
+}
+
+form p span.cell.left {
+	float: left;
+	padding-right: .25em;
+}
+
+form p span.cell.right {
+	float: right;
+	padding-left: .25em;
+}
+
+form p span.cell label {
+	position: relative;
+	display: block;
+	white-space: nowrap;
+}
+
+form p span.cell input[type="text"] {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	display: block;
+	margin: 0px;
+	padding: .25em;
+	font-size: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+form p span.cell label input[type="submit"],
+form p span.cell label input[type="button"],
+form p span.cell label button,
+form p span.cell label .button {
+	display: block;
+	border: 1px solid #000;
+	background: #eee;
+	font-size: 1em !important;
+	padding: .25em .5em;
+	margin: 0em;
+}
+
+form p span.cell.column-1 label input[type="submit"],
+form p span.cell.column-2 label input[type="submit"],
+form p span.cell.column-3 label input[type="submit"],
+form p span.cell.column-4 label input[type="submit"],
+form p span.cell.column-5 label input[type="submit"],
+form p span.cell.column-6 label input[type="submit"],
+form p span.cell.column-7 label input[type="submit"],
+form p span.cell.column-8 label input[type="submit"],
+form p span.cell.column-9 label input[type="submit"],
+form p span.cell.column-10 label input[type="submit"],
+form p span.cell.column-11 label input[type="submit"],
+form p span.cell.column-12 label input[type="submit"],
+
+form p span.cell.column-1 label input[type="button"],
+form p span.cell.column-2 label input[type="button"],
+form p span.cell.column-3 label input[type="button"],
+form p span.cell.column-4 label input[type="button"],
+form p span.cell.column-5 label input[type="button"],
+form p span.cell.column-6 label input[type="button"],
+form p span.cell.column-7 label input[type="button"],
+form p span.cell.column-8 label input[type="button"],
+form p span.cell.column-9 label input[type="button"],
+form p span.cell.column-10 label input[type="button"],
+form p span.cell.column-11 label input[type="button"],
+form p span.cell.column-12 label input[type="button"],
+
+form p span.cell.column-1 label button,
+form p span.cell.column-2 label button,
+form p span.cell.column-3 label button,
+form p span.cell.column-4 label button,
+form p span.cell.column-5 label button,
+form p span.cell.column-6 label button,
+form p span.cell.column-7 label button,
+form p span.cell.column-8 label button,
+form p span.cell.column-9 label button,
+form p span.cell.column-10 label button,
+form p span.cell.column-11 label button,
+form p span.cell.column-12 label button,
+
+form p span.cell.column-1 label .button,
+form p span.cell.column-2 label .button,
+form p span.cell.column-3 label .button,
+form p span.cell.column-4 label .button,
+form p span.cell.column-5 label .button,
+form p span.cell.column-6 label .button,
+form p span.cell.column-7 label .button,
+form p span.cell.column-8 label .button,
+form p span.cell.column-9 label .button,
+form p span.cell.column-10 label .button,
+form p span.cell.column-11 label .button,
+form p span.cell.column-12 label .button {
+	width: 100%;
+}
+
+/* explicitly sized columns */
+form p span.cell.column-1 { width: 8.329%;}
+form p span.cell.column-2 { width: 16.659%;}
+form p span.cell.column-3 { width: 25%;}
+form p span.cell.column-4 { width: 33.329%;}
+form p span.cell.column-5 { width: 41.659%;}
+form p span.cell.column-6 { width: 50%;}
+form p span.cell.column-7 { width: 58.329%;}
+form p span.cell.column-8 { width: 66.659%;}
+form p span.cell.column-9 { width: 75%;}
+form p span.cell.column-10 { width: 83.329%;}
+form p span.cell.column-11 { width: 91.659%;}
+form p span.cell.column-12 { width: 100%;}
